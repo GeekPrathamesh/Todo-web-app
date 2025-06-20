@@ -85,7 +85,7 @@ body {
 .note {
 
     margin-left: 2rem;
-    width: 33rem;
+    width: 31rem;
 }
 .edit {
   border: none;
@@ -104,3 +104,6 @@ body {
   right: 3%;
 }
 /* .note .edit .trash */
+#checkbox{
+    margin-left: 1rem;
+}

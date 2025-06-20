@@ -25,7 +25,9 @@ noteAdd.addEventListener("click", () => {
 
 function createElement(key) {
   let newTask = document.createElement("div");
-  newTask.innerHTML = `<div class="task task${key}" data-key="${key}">
+  newTask.innerHTML = `
+<div class="task task${key}" data-key="${key}">
+<input type="checkbox" id="checkbox">
             <p class="note">${localStorage.getItem(key)}</p>
             <button class="edit">
               <i class="fa-solid fa-pen-to-square"></i>
@@ -76,7 +78,7 @@ window.addEventListener("DOMContentLoaded", () => {
   for (let i = 0; i < localStorage.length; i++) {
     let storageKey = localStorage.key(i);
     if (storageKey !== "taskKey") {
-        storageKey=Number.parseInt(storageKey);
+      storageKey = Number.parseInt(storageKey);
       createElement(storageKey);
     }
   }
