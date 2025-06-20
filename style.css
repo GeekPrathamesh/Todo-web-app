@@ -1,0 +1,106 @@
+* {
+  font-family: "Baloo Bhai 2", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, #373b44, #4286f4);
+  display: flex;
+  justify-content: center;
+}
+.main {
+  height: auto;
+  width: 56%;
+  background-color: aliceblue;
+  margin-top: 7rem;
+  border-radius: 2rem;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* background-color: bisque; */
+  width: 30%;
+  height: auto;
+  /* margin-top: 2.5rem; */
+  font-size: 2rem;
+  margin: 3.5rem auto 0 auto;
+}
+.input {
+  width: 90%;
+  /* background-color: bisque; */
+  margin: 0.7rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  align-items: center;
+  font-size: 1.22rem;
+  height: 6rem;
+  position: relative;
+}
+
+#ip {
+  width: 80%;
+  border-radius: 2rem;
+  border: 1px solid rgb(239, 228, 228);
+  height: 4rem;
+  font-size: 1.7rem;
+  padding-left: 3rem;
+}
+#btn {
+  position: absolute;
+  width: 8%;
+  height: 4rem;
+
+  border-radius: 100%;
+  right: 7%;
+  border: 1px solid rgb(239, 228, 228);
+  background-color: #16b616;
+  font-size: 1.7rem;
+}
+.tasks {
+  /* background-color: antiquewhite; */
+  height: auto;
+  width: 90%;
+  margin: 2rem auto 1.5rem auto;
+}
+.task {
+  margin: 1.4rem auto 0 auto;
+
+  background-color: white;
+  width: 86%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  min-height: 3.2rem;
+  border-radius: 8px;
+    border: 1px solid rgb(239, 228, 228);
+  position: relative;
+  font-size: 1.4rem;
+}
+
+.note {
+
+    margin-left: 2rem;
+    width: 33rem;
+}
+.edit {
+  border: none;
+  background-color: white;
+
+  position: absolute;
+  font-size: 1.6rem;
+  right: 10%;
+}
+
+.trash {
+  border: none;
+  background-color: white;
+  position: absolute;
+  font-size: 1.6rem;
+  right: 3%;
+}
+/* .note .edit .trash */
