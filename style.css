@@ -110,3 +110,11 @@ input[type="checkbox"] {
   width: 25px;
   height: 22px;
 }
+.clear{
+  margin-bottom: 10px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
